@@ -1,0 +1,51 @@
+@media screen and (max-width:1000px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: 30vh;
+        
+        overflow: hidden;
+    }
+
+
+
+    .Search {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 10px;
+    }
+
+
+    body {
+        background-color: red;
+    }
+
+    .logo {
+        /* display: inline-block;
+        width: 100px;
+        position: relative;
+        top: 14px;
+        left: 10px; */
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+
+    nav ul {
+        /* margin-left: 70px;
+        margin-top: 14px; */
+        display: flex;
+        justify-content: center;
+        /* margin: 4px 0px; */
+        align-items: center;
+    }
+
+    .Search input{
+        margin: 12px 16px;
+    }
+   
+
+}
